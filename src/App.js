@@ -27,78 +27,104 @@ const App = () => {
       >
         Download
       </Button>
-      <div className="top-content">
-        <div className="inner-content-left">
-          <div className="first">
-            <div className="card-first">
-              <img src={logo} alt="Logo" className="logo" />
-              <div className="logo-title-container">
-                <p className="logo-title">WISMA MATAHARI POWER</p>
+      <div className="row mb-3">
+        <div className="col-md-4 mt-2 card-stretch">
+          <div className="d-flex">
+            <div className="first">
+              <div className="card-first">
+                <img src={logo} alt="Logo" className="logo" />
+                <div className="logo-title-container">
+                  <p className="logo-title mt-2">WISMA MATAHARI POWER</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="second">
-            <div className="card-second">
-              <p className="card-second-title">Kebayoran Lama</p>
-              <p className="degree">32°</p>
-              <p className="card-second-content">Partly Cloudy</p>
-              <div className="humidity-container">
-                <p className="card-second-content">H:33°</p>
-                <p className="card-second-content">L:24°</p>
+            <div className="second">
+              <div className="card-second" style={{marginLeft: '5%'}}>
+                <p className="card-second-title">Kebayoran Lama</p>
+                <p className="degree">32°</p>
+                <p className="card-second-content">Partly Cloudy</p>
+                <div className="humidity-container">
+                  <p className="card-second-content">H:33°</p>
+                  <p className="card-second-content">L:24°</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="inner-content-right">
-          <div className="inner-top-content">
-            <div className="card-two">
-              <div className="icon-container">
-                <img src={money} alt="Money" className="icon" />
-              </div>
-              <div className="content-container">
-                <p className="content">Reimbursement</p>
-                <div className="inner-content-container">
-                  <p className="content-two">312,254.00</p>
-                  <p className="sub-content">Rp Today</p>
-                </div>
-                <div className="inner-content-container">
-                  <p className="content-two">198,346,527.00</p>
-                  <p className="sub-content">Rp Total</p>
+        <div className="col-md-4 mt-3 card-stretch">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="card-two pd-0">
+                <div className="d-flex">
+                  <div className="icon-container">
+                    <img src={money} alt="Money" className="icon" />
+                    <div style={{marginLeft: '10px'}}>
+                      <p className="content">Reimbursement</p>
+                      <div className="inner-content-container">
+                        <p className="content-two">312,254.00</p>
+                        <p className="sub-content">Rp Today</p>
+                      </div>
+                      <div className="inner-content-container">
+                        <p className="content-two">198,346,527.00</p>
+                        <p className="sub-content">Rp Total</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="card-two">
-              <div className="icon-container">
-                <img src={money} alt="Money" className="icon" />
-              </div>
-              <div className="inner-content-tree">
-                <p className="content-tree">18,763</p>
-                <p className="sub-content-tree">Trees Saved</p>
+            <div className="col-md-12 mt-3">
+              <div className="card-two pd-0">
+                <div className="d-flex">
+                  <div className="icon-container">
+                    <img src={money} alt="Money" className="icon" />
+                    <div style={{marginLeft: '10px'}}>
+                    <div className="inner-content-container">
+                      <p className="content-tree">18,763</p>
+                      <p className="sub-content-tree">Trees Saved</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div className="inner-top-content">
-            <div className="card-two">
-              <div className="icon-container">
-                <img src={money} alt="Money" className="icon" />
-              </div>
-              <div className="content-container">
-                <p className="content-power">WMP PV Capacity</p>
-                <div className="inner-content-power">
-                  <p className="sub-content-power">140</p>
-                  <p className="sub-content-power-two">kWp</p>
+        </div>
+        <div className="col-md-4 mt-3 card-stretch">
+        <div className="row">
+            <div className="col-md-12">
+              <div className="card-two pd-1">
+                <div className="d-flex">
+                  <div className="icon-container">
+                    <img src={money} alt="Money" className="icon" />
+                    <div style={{marginLeft: '10px'}}>
+                      <div className="content-container">
+                        <p className="content-power">WMP PV Capacity</p>
+                        <div className="inner-content-power">
+                          <p className="sub-content-power">140</p>
+                          <p className="sub-content-power-two">kWp</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="card-two">
-              <div className="icon-container">
-                <img src={money} alt="Money" className="icon" />
-              </div>
-              <div className="content-container">
-                <p className="content-eco">CO2 Avoidance</p>
-                <div className="inner-content-eco">
-                  <p className="sub-content-eco">73.58</p>
-                  <p className="sub-content-eco-two">Metric Tons</p>
+            <div className="col-md-12 mt-3">
+              <div className="card-two pd-1">
+                <div className="d-flex">
+                  <div className="icon-container">
+                    <img src={money} alt="Money" className="icon" />
+                    <div style={{marginLeft: '10px'}}>
+                      <div className="content-container">
+                        <p className="content-eco">CO2 Avoidance</p>
+                        <div className="inner-content-eco">
+                          <p className="sub-content-eco">73.58</p>
+                          <p className="sub-content-eco-two">Metric Tons</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
