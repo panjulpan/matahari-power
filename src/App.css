@@ -24,7 +24,7 @@
 .card-first {
   background-color: rgba(255, 255, 255, 0.2) !important;
   backdrop-filter: blur(8px);
-  border-radius: 25px !important;
+  border-radius: 35px !important;
   height: 100%;
   box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.44);
   -webkit-box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.44);
@@ -54,7 +54,7 @@
 }
 
 .logo-title {
-  font-size: 140%;
+  font-size: 1.5rem;
   text-align: center;
   line-height: 130%;
   font-family: "Public Sans", sans-serif;
@@ -70,7 +70,7 @@
 .card-second {
   background-color: rgba(255, 255, 255, 0.2) !important;
   backdrop-filter: blur(8px);
-  border-radius: 25px !important;
+  border-radius: 35px !important;
   padding: 20px;
   height: 100%;
   box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.44);
@@ -139,7 +139,7 @@
 .card-two {
   background-color: rgba(255, 255, 255, 0.2) !important;
   backdrop-filter: blur(8px);
-  border-radius: 25px !important;
+  border-radius: 35px !important;
   padding: 10px 10px 10px 20px;
   width: 100%;
   height: 100%;
@@ -163,7 +163,7 @@
 }
 
 .icon {
-  width: 15%;
+  width: 20%;
   /* height: 100%; */
   border-radius: 100% !important;
   box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.44);
@@ -251,7 +251,7 @@
 .content-power {
   margin: 0;
   font-size: 2rem;
-  line-height: 1.7;
+  line-height: 2;
   font-family: "Public Sans", sans-serif;
   font-weight: 100;
   color: #ffffff;
@@ -260,8 +260,8 @@
 
 .sub-content-power {
   margin: 0;
-  font-size: 535%;
-  line-height: 65px;
+  font-size: 4.6rem;
+  line-height: 30px;
   font-family: "Public Sans", sans-serif;
   font-weight: 200;
   color: #f3c321;
@@ -270,8 +270,8 @@
 
 .sub-content-power-two {
   margin: auto 0;
-  font-size: 335%;
-  line-height: 56px;
+  font-size: 3rem;
+  line-height: 30px;
   font-family: "Public Sans", sans-serif;
   font-weight: 200;
   color: #f3c321;
@@ -323,7 +323,7 @@
 .card-bottom {
   background-color: rgba(255, 255, 255, 0.2) !important;
   backdrop-filter: blur(8px);
-  border-radius: 25px !important;
+  border-radius: 35px !important;
   padding: 15px 20px;
   height: 100%;
   box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.44);
@@ -522,19 +522,19 @@
   }
 
   .degree {
-    font-size: 76px!important;
+    font-size: 76px !important;
     text-align: center;
     line-height: 61px;
   }
 
   .card-second-title {
-    font-size: 14px!important;
+    font-size: 14px !important;
     text-align: center;
     line-height: 20px;
   }
 
   .card-second-content {
-    font-size: 18px!important;
+    font-size: 18px !important;
     text-align: center;
     line-height: 22px;
   }
@@ -554,7 +554,6 @@
   .content-container {
     flex: 70%;
     align-items: center;
-    padding-top: 0px;
   }
 
   .content {
@@ -662,9 +661,9 @@
   }
 }
 
-@media (max-width:961px)  {
+@media (max-width: 961px) {
   .card-stretch {
-    width: 100%!important;
+    width: 100% !important;
   }
 
   .card-second-title {
@@ -684,7 +683,7 @@
   }
 }
 
-@media (min-width:1025px) {
+@media (min-width: 1025px) {
   .content {
     font-size: 1.8rem;
   }
@@ -695,11 +694,11 @@
 
   .sub-content-tree {
     font-size: 1.5rem;
-    line-height: 2
+    line-height: 2;
   }
 }
 
-@media (min-width:1281px) {
+@media (min-width: 1281px) {
   .degree {
     font-size: 8rem;
   }
@@ -713,11 +712,11 @@
   }
 
   .content {
-    font-size: 3rem;
+    font-size: 2.1rem;
   }
 
   .content-two {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 
   .sub-content {
@@ -725,11 +724,12 @@
   }
 
   .content-tree {
-    font-size: 4.5rem;
+    font-size: 5rem;
   }
 
   .sub-content-tree {
-    line-height: 3;
+    font-size: 2rem;
+    line-height: 1.5;
   }
 
   .pd-1 {
@@ -737,7 +737,7 @@
   }
 
   .content-power {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .content-eco {
