@@ -1,6 +1,7 @@
 import "./App.css";
 import logo from "./images/logo-company.jpeg";
 import money from "./images/coin.png";
+import twitter from "./images/twitter.png";
 import BarChart from "./component/BarChart";
 import { SimpleGuageChart } from "simple-react-d3-guage-chart";
 import "simple-react-d3-guage-chart/dist/index.css";
@@ -12,6 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import MyVerticallyCenteredModal from "./component/Modal";
 import { Button } from "react-bootstrap";
+import Marquee from "react-fast-marquee";
 
 const App = () => {
   const [modalShow, setModalShow] = useState(false);
@@ -39,7 +41,7 @@ const App = () => {
               </div>
             </div>
             <div className="second">
-              <div className="card-second" style={{marginLeft: '5%'}}>
+              <div className="card-second" style={{ marginLeft: "5%" }}>
                 <p className="card-second-title">Kebayoran Lama</p>
                 <p className="degree">32°</p>
                 <p className="card-second-content">Partly Cloudy</p>
@@ -58,7 +60,7 @@ const App = () => {
                 <div className="d-flex">
                   <div className="icon-container">
                     <img src={money} alt="Money" className="icon" />
-                    <div style={{marginLeft: '10px'}}>
+                    <div style={{ marginLeft: "10px" }}>
                       <p className="content">Reimbursement</p>
                       <div className="inner-content-container">
                         <p className="content-two">312,254.00</p>
@@ -78,10 +80,12 @@ const App = () => {
                 <div className="d-flex">
                   <div className="icon-container">
                     <img src={money} alt="Money" className="icon" />
-                    <div style={{marginLeft: '10px'}}>
-                    <div className="inner-content-container">
-                      <p className="content-tree">18,763</p>
-                      <p className="sub-content-tree">Trees Saved</p>
+                    <div style={{ marginLeft: "10px" }}>
+                      <div className="inner-content-container">
+                        <p className="content-tree">18,763</p>
+                        <div style={{ alignSelf: "center" }}>
+                          <p className="sub-content-tree">Trees Saved</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -91,35 +95,55 @@ const App = () => {
           </div>
         </div>
         <div className="col-md-4 mt-3 card-stretch">
-        <div className="row">
+          <div className="row">
             <div className="col-md-12">
               <div className="card-two pd-1">
                 <div className="d-flex">
                   <div className="icon-container">
                     <img src={money} alt="Money" className="icon" />
-                    <div style={{marginLeft: '10px'}}>
-                      <div className="content-container">
-                        <p className="content-power">WMP PV Capacity</p>
-                        <div className="inner-content-power">
+                    <div
+                      style={{
+                        marginLeft: "10px",
+                        justifyContent: "space-between",
+                        borderWidth: 1,
+                      }}
+                    >
+                      <p className="content-power">WMP PV Capacity</p>
+                      <div className="inner-content-power">
+                        <div>
                           <p className="sub-content-power">140</p>
+                        </div>
+                        <div>
                           <p className="sub-content-power-two">kWp</p>
                         </div>
                       </div>
+                      {/* <div className="content-container">
+                        <div>
+                        </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-12 mt-3">
-              <div className="card-two pd-1">
+              <div className="card-two">
                 <div className="d-flex">
                   <div className="icon-container">
                     <img src={money} alt="Money" className="icon" />
-                    <div style={{marginLeft: '10px'}}>
-                      <div className="content-container">
-                        <p className="content-eco">CO2 Avoidance</p>
-                        <div className="inner-content-eco">
+                    <div style={{ marginLeft: "10px" }}>
+                      <p className="content-eco">CO2 Avoidance</p>
+                      <div className="inner-content-eco">
+                        <div>
                           <p className="sub-content-eco">73.58</p>
+                        </div>
+                        <div
+                          style={{
+                            alignItems: "center",
+                            marginLeft: 10,
+                            marginTop: -5,
+                          }}
+                        >
                           <p className="sub-content-eco-two">Metric Tons</p>
                         </div>
                       </div>
@@ -130,6 +154,16 @@ const App = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="card-marquee">
+        <img src={twitter} alt="Twitter" className="twitter-icon" />
+        <Marquee gradient={false}>
+          <p className="twitter-acc">@Koranjakarta_id: </p>
+          <p className="twitter-tweet">
+            Zelensky Meminta Inggris Tetapkan Rusia Sebagai Negara Teroris Dalam
+            Forum Parlemen #koranjakarta
+          </p>
+        </Marquee>
       </div>
       <div className="bottom-content">
         <div className="card-bottom">
@@ -152,7 +186,7 @@ const App = () => {
                 tickFontColor="#FFF"
                 fontColor="#f3c321"
                 pointerColor="#192c92"
-                size={450}
+                size={350}
               />
             )}
             {isMobile && (
