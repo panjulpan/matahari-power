@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/matahari-power/static/css/main.fe7007ea.css",
-    "main.js": "/matahari-power/static/js/main.eb41ce7a.js",
+    "main.css": "/matahari-power/static/css/main.118bad5e.css",
+    "main.js": "/matahari-power/static/js/main.f787ec03.js",
     "static/js/787.545aecf5.chunk.js": "/matahari-power/static/js/787.545aecf5.chunk.js",
     "static/media/blue-sky.jpg": "/matahari-power/static/media/blue-sky.ceb9f1fdd1772bb02d81.jpg",
     "static/media/iqair_logo.png": "/matahari-power/static/media/iqair_logo.b7d9f8e4631e3463a8d1.png",
     "static/media/face-shadow.png": "/matahari-power/static/media/face-shadow.ab8c11e0f867a51e4d77.png",
     "static/media/coin.png": "/matahari-power/static/media/coin.b1ddf4530a3941d661af.png",
     "index.html": "/matahari-power/index.html",
-    "main.fe7007ea.css.map": "/matahari-power/static/css/main.fe7007ea.css.map",
-    "main.eb41ce7a.js.map": "/matahari-power/static/js/main.eb41ce7a.js.map",
+    "main.118bad5e.css.map": "/matahari-power/static/css/main.118bad5e.css.map",
+    "main.f787ec03.js.map": "/matahari-power/static/js/main.f787ec03.js.map",
     "787.545aecf5.chunk.js.map": "/matahari-power/static/js/787.545aecf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe7007ea.css",
-    "static/js/main.eb41ce7a.js"
+    "static/css/main.118bad5e.css",
+    "static/js/main.f787ec03.js"
   ]
 }
