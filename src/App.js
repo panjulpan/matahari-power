@@ -1,6 +1,9 @@
 import "./App.css";
 import logo from "./images/logo-company.jpeg";
-import money from "./images/coin.png";
+import power from "./images/Untitled-1.png";
+import tree from "./images/Untitled-2.png";
+import money from "./images/Untitled-5.png";
+import leaf from "./images/Untitled-4.png";
 import twitter from "./images/twitter.png";
 import BarChart from "./component/BarChart";
 import { SimpleGuageChart } from "simple-react-d3-guage-chart";
@@ -53,7 +56,7 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4 mt-3 card-stretch">
+        <div className="col-md-4 mt-3 card-stretch d-flex align-items-stretch">
           <div className="row">
             <div className="col-md-12">
               <div className="card-two pd-0">
@@ -79,7 +82,7 @@ const App = () => {
               <div className="card-two pd-0">
                 <div className="d-flex">
                   <div className="icon-container">
-                    <img src={money} alt="Money" className="icon" />
+                    <img src={tree} alt="Money" className="icon" />
                     <div style={{ marginLeft: "10px" }}>
                       <div className="inner-content-container">
                         <p className="content-tree">18,763</p>
@@ -94,21 +97,24 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4 mt-3 card-stretch">
+        <div className="col-md-4 mt-3 card-stretch d-flex align-items-stretch">
           <div className="row">
             <div className="col-md-12">
               <div className="card-two pd-1">
                 <div className="d-flex">
                   <div className="icon-container">
-                    <img src={money} alt="Money" className="icon" />
+                    <img src={power} alt="Money" className="icon" />
                     <div
                       style={{
                         marginLeft: "10px",
                         justifyContent: "space-between",
                         borderWidth: 1,
+                        height: "100%",
+                        paddingTop: 10,
+                        paddingBottom: 10,
                       }}
                     >
-                      <p className="content-power">WMP PV Capacity</p>
+                      <p className="content-power pad">WMP PV Capacity</p>
                       <div className="inner-content-power">
                         <div>
                           <p className="sub-content-power">140</p>
@@ -117,10 +123,6 @@ const App = () => {
                           <p className="sub-content-power-two">kWp</p>
                         </div>
                       </div>
-                      {/* <div className="content-container">
-                        <div>
-                        </div>
-                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -130,8 +132,17 @@ const App = () => {
               <div className="card-two">
                 <div className="d-flex">
                   <div className="icon-container">
-                    <img src={money} alt="Money" className="icon" />
-                    <div style={{ marginLeft: "10px" }}>
+                    <img src={leaf} alt="Money" className="icon" />
+                    <div
+                      style={{
+                        marginLeft: "10px",
+                        height: "100%",
+                        paddingTop: 10,
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-around",
+                      }}
+                    >
                       <p className="content-eco">CO2 Avoidance</p>
                       <div className="inner-content-eco">
                         <div>

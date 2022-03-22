@@ -139,7 +139,7 @@
   background-color: rgba(255, 255, 255, 0.2) !important;
   backdrop-filter: blur(8px);
   border-radius: 35px !important;
-  padding: 10px 10px 10px 20px;
+  padding: 10px 10px 10px 30px !important;
   width: 100%;
   height: 100%;
   display: flex;
@@ -764,15 +764,15 @@
   }
 
   .content-power {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .sub-content-power {
-    font-size: 62px;
+    font-size: 58px;
   }
 
   .sub-content-power-two {
-    font-size: 42px;
+    font-size: 38px;
   }
 
   .content-eco {
@@ -787,6 +787,127 @@
   .sub-content-eco-two {
     font-size: 24px;
     line-height: 30px;
+  }
+
+  .big-container-title {
+    font-size: 32px;
+  }
+
+  .status-container {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .status {
+    font-size: 22px;
+  }
+
+  .value {
+    font-size: 24px;
+  }
+
+  .sub-value {
+    font-size: 10px;
+  }
+
+  .face {
+    width: 75%;
+    align-self: "center";
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+  .value-bottom {
+    font-size: 28px;
+  }
+
+  .sub-value-bottom {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .logo-title {
+    font-size: 28px;
+  }
+
+  .icon {
+    width: 25%;
+  }
+
+  .degree {
+    font-size: 124px;
+  }
+
+  .card-second {
+    padding-top: 50px;
+  }
+
+  .card-second-title {
+    font-size: 30px;
+  }
+
+  .card-second-content {
+    font-size: 32px;
+  }
+
+  .content {
+    font-size: 36px;
+    line-height: 38px;
+  }
+
+  .content-two {
+    font-size: 44px;
+  }
+
+  .sub-content {
+    font-size: 22px;
+  }
+
+  .content-tree {
+    font-size: 76px;
+  }
+
+  .sub-content-tree {
+    font-size: 32px;
+    line-height: 42px;
+    padding-left: 20px;
+  }
+
+  .pd-1 {
+    padding: 1rem;
+  }
+
+  .content-power {
+    font-size: 36px;
+  }
+
+  .pad {
+    padding-top: 10px;
+  }
+
+  .sub-content-power {
+    font-size: 72px;
+    line-height: 38px;
+  }
+
+  .sub-content-power-two {
+    font-size: 50px;
+    line-height: 38px;
+  }
+
+  .content-eco {
+    font-size: 28px;
+  }
+
+  .sub-content-eco {
+    font-size: 76px;
+    line-height: 70px;
+  }
+
+  .sub-content-eco-two {
+    font-size: 38px;
+    line-height: 44px;
   }
 
   .big-container-title {
