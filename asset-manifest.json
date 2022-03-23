@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/matahari-power/static/css/main.118bad5e.css",
-    "main.js": "/matahari-power/static/js/main.f787ec03.js",
+    "main.css": "/matahari-power/static/css/main.b7b7b67f.css",
+    "main.js": "/matahari-power/static/js/main.d8782d4d.js",
     "static/js/787.545aecf5.chunk.js": "/matahari-power/static/js/787.545aecf5.chunk.js",
     "static/media/blue-sky.jpg": "/matahari-power/static/media/blue-sky.ceb9f1fdd1772bb02d81.jpg",
+    "static/media/Untitled-2.png": "/matahari-power/static/media/Untitled-2.5152985d7b130f43538e.png",
+    "static/media/Untitled-5.png": "/matahari-power/static/media/Untitled-5.95a89ed77279c622c724.png",
+    "static/media/Untitled-4.png": "/matahari-power/static/media/Untitled-4.4312d70bd2a8abc1abd5.png",
+    "static/media/Untitled-1.png": "/matahari-power/static/media/Untitled-1.9d71b7c1b0b815f0322f.png",
     "static/media/iqair_logo.png": "/matahari-power/static/media/iqair_logo.b7d9f8e4631e3463a8d1.png",
     "static/media/face-shadow.png": "/matahari-power/static/media/face-shadow.ab8c11e0f867a51e4d77.png",
     "static/media/coin.png": "/matahari-power/static/media/coin.b1ddf4530a3941d661af.png",
     "index.html": "/matahari-power/index.html",
-    "main.118bad5e.css.map": "/matahari-power/static/css/main.118bad5e.css.map",
-    "main.f787ec03.js.map": "/matahari-power/static/js/main.f787ec03.js.map",
+    "main.b7b7b67f.css.map": "/matahari-power/static/css/main.b7b7b67f.css.map",
+    "main.d8782d4d.js.map": "/matahari-power/static/js/main.d8782d4d.js.map",
     "787.545aecf5.chunk.js.map": "/matahari-power/static/js/787.545aecf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.118bad5e.css",
-    "static/js/main.f787ec03.js"
+    "static/css/main.b7b7b67f.css",
+    "static/js/main.d8782d4d.js"
   ]
 }
