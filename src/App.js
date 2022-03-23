@@ -13,7 +13,7 @@ import AreaChart from "./component/AreaChart";
 import IQAir from "./images/iqair_logo.png";
 import face from "./images/face-shadow.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import MyVerticallyCenteredModal from "./component/Modal";
 import { Button } from "react-bootstrap";
 import Marquee from "react-fast-marquee";
@@ -22,6 +22,10 @@ const App = () => {
   const [modalShow, setModalShow] = useState(false);
   const isDesktop = useMediaQuery({ query: "(min-width: 1224px)" });
   const isMobile = useMediaQuery({ query: "(max-width: 576px)" });
+
+  useEffect(() => {
+    console.log("width screen: ", window.innerWidth);
+  }, []);
 
   return (
     <div className="contain">
@@ -197,7 +201,7 @@ const App = () => {
                 tickFontColor="#FFF"
                 fontColor="#f3c321"
                 pointerColor="#192c92"
-                size={350}
+                size={window.innerWidth === 1920 ? 600 : 350}
               />
             )}
             {isMobile && (

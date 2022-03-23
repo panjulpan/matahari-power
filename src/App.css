@@ -725,8 +725,16 @@
     font-size: 18px;
   }
 
+  .icon {
+    width: 23%;
+  }
+
   .degree {
     font-size: 98px;
+  }
+
+  .card-second {
+    padding-top: 35px;
   }
 
   .card-second-title {
@@ -798,16 +806,32 @@
     padding: 5px;
   }
 
+  .value-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   .status {
     font-size: 22px;
+    font-weight: 400;
   }
 
   .value {
     font-size: 24px;
+    font-weight: 300;
   }
 
   .sub-value {
     font-size: 10px;
+    font-weight: 300;
+  }
+
+  .chart-container {
+    padding: 0px 20px 25px 20px;
+  }
+
+  .big-container-chart {
+    flex: 45%;
   }
 
   .face {
@@ -818,11 +842,12 @@
   }
 
   .value-bottom {
-    font-size: 28px;
+    font-size: 46px;
   }
 
   .sub-value-bottom {
-    font-size: 18px;
+    font-size: 26px;
+    font-weight: 300;
   }
 }
 
@@ -911,7 +936,9 @@
   }
 
   .big-container-title {
-    font-size: 32px;
+    font-size: 52px;
+    margin-top: 24px;
+    margin-bottom: 44px;
   }
 
   .status-container {
@@ -919,16 +946,32 @@
     padding: 5px;
   }
 
+  .value-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .status {
-    font-size: 22px;
+    font-size: 34px;
+    font-weight: 400;
   }
 
   .value {
-    font-size: 24px;
+    font-size: 40px;
+    font-weight: 300;
   }
 
   .sub-value {
-    font-size: 10px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .chart-container {
+    padding: 0px 20px 25px 20px;
+  }
+
+  .big-container-chart {
+    flex: 40%;
   }
 
   .face {
@@ -939,10 +982,11 @@
   }
 
   .value-bottom {
-    font-size: 28px;
+    font-size: 68px;
   }
 
   .sub-value-bottom {
-    font-size: 18px;
+    font-size: 36px;
+    font-weight: 300;
   }
 }
