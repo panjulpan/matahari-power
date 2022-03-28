@@ -144,7 +144,7 @@ const App = () => {
                         paddingTop: 10,
                         display: "flex",
                         flexDirection: "column",
-                        justifyContent: "space-around",
+                        justifyContent: "space-evenly",
                       }}
                     >
                       <p className="content-eco">CO2 Avoidance</p>
@@ -192,16 +192,40 @@ const App = () => {
                 maxAngle={90}
                 minValue={0}
                 maxValue={140}
-                pointerWidth={4}
+                pointerWidth={
+                  window.innerWidth === 1920
+                    ? 6
+                    : window.innerWidth === 2560
+                    ? 10
+                    : 4
+                }
                 majorTicks={8}
-                ticksRingWidth={10}
-                mainRingWidth={5}
+                ticksRingWidth={
+                  window.innerWidth === 1920
+                    ? 15
+                    : window.innerWidth === 2560
+                    ? 20
+                    : 10
+                }
+                mainRingWidth={
+                  window.innerWidth === 1920
+                    ? 8
+                    : window.innerWidth === 2560
+                    ? 10
+                    : 5
+                }
                 tickColors={["#FFF", "#FFF"]}
                 arcColor="#FFF"
                 tickFontColor="#FFF"
                 fontColor="#f3c321"
                 pointerColor="#192c92"
-                size={window.innerWidth === 1920 ? 600 : 350}
+                size={
+                  window.innerWidth === 1920
+                    ? 600
+                    : window.innerWidth === 2560
+                    ? 850
+                    : 350
+                }
               />
             )}
             {isMobile && (
@@ -247,7 +271,7 @@ const App = () => {
                 <p className="label-text">Today</p>
               </div>
               <div className="label">
-                <p className="label-text">label</p>
+                <p className="label-text">153.60 kWh</p>
               </div>
             </div>
             <div className="chart-container">
@@ -256,7 +280,7 @@ const App = () => {
                 <p className="label-text">Current Month</p>
               </div>
               <div className="label">
-                <p className="label-text">label</p>
+                <p className="label-text">4,225.61 kWh</p>
               </div>
             </div>
             <div className="chart-container">
@@ -265,7 +289,7 @@ const App = () => {
                 <p className="label-text">Current Year</p>
               </div>
               <div className="label">
-                <p className="label-text">label</p>
+                <p className="label-text">12.80 MWh</p>
               </div>
             </div>
           </div>

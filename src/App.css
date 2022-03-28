@@ -378,6 +378,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .big-container-chart {
@@ -412,10 +413,11 @@
   border-color: #b9b7c2 !important;
   border-style: solid;
   flex: 10%;
-  align-items: "center";
+  align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 25px 5px;
+  padding: 30px 5px;
+  justify-content: space-evenly;
 }
 
 .IQAir {
@@ -518,12 +520,12 @@
 }
 
 .chart {
-  flex: 90%;
+  flex: 80%;
   height: 100%;
 }
 
 .label {
-  flex: 10%;
+  flex: 20%;
   height: 100%;
   padding-left: 10px;
 }
@@ -806,11 +808,6 @@
     padding: 5px;
   }
 
-  .value-container {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
   .status {
     font-size: 22px;
     font-weight: 400;
@@ -847,6 +844,11 @@
 
   .sub-value-bottom {
     font-size: 26px;
+    font-weight: 300;
+  }
+
+  .label-text {
+    font-size: 16px;
     font-weight: 300;
   }
 }
@@ -937,18 +939,13 @@
 
   .big-container-title {
     font-size: 52px;
-    margin-top: 24px;
+    margin-top: 134px;
     margin-bottom: 44px;
   }
 
   .status-container {
     width: 100%;
     padding: 5px;
-  }
-
-  .value-container {
-    margin-top: 20px;
-    margin-bottom: 20px;
   }
 
   .status {
@@ -967,7 +964,7 @@
   }
 
   .chart-container {
-    padding: 0px 20px 25px 20px;
+    padding: 25px 20px 25px 20px;
   }
 
   .big-container-chart {
@@ -988,5 +985,168 @@
   .sub-value-bottom {
     font-size: 36px;
     font-weight: 300;
+  }
+
+  .label-text {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+
+@media (min-width: 2560px) {
+  .logo-title {
+    font-size: 36px;
+    font-weight: 300;
+  }
+
+  .icon {
+    width: 25%;
+  }
+
+  .degree {
+    font-size: 200px;
+    line-height: 1.05em;
+  }
+
+  .card-second {
+    padding-top: 50px;
+  }
+
+  .card-second-title {
+    font-size: 42px;
+    font-weight: 300;
+  }
+
+  .card-second-content {
+    font-size: 44px;
+    font-weight: 300;
+  }
+
+  .content {
+    font-size: 46px;
+    line-height: 48px;
+    font-weight: 300;
+  }
+
+  .content-two {
+    font-size: 62px;
+    font-weight: 200;
+  }
+
+  .sub-content {
+    font-size: 28px;
+    font-weight: 300;
+  }
+
+  .content-tree {
+    font-size: 116px;
+    font-weight: 200;
+  }
+
+  .sub-content-tree {
+    font-size: 48px;
+    line-height: 58px;
+    padding-left: 20px;
+    font-weight: 300;
+  }
+
+  .pd-1 {
+    padding: 1rem;
+  }
+
+  .content-power {
+    font-size: 52px;
+    font-weight: 300;
+  }
+
+  .pad {
+    padding-top: 10px;
+  }
+
+  .sub-content-power {
+    font-size: 118px;
+    line-height: 64px;
+  }
+
+  .sub-content-power-two {
+    font-size: 72px;
+    line-height: 60px;
+  }
+
+  .content-eco {
+    font-size: 42px;
+    font-weight: 300;
+  }
+
+  .sub-content-eco {
+    font-size: 118px;
+    line-height: 90px;
+  }
+
+  .sub-content-eco-two {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 300;
+    margin-left: 20px;
+  }
+
+  .big-container {
+    margin-top: 110px;
+  }
+
+  .big-container-title {
+    font-size: 66px;
+    margin-top: 24px;
+    margin-bottom: 84px;
+  }
+
+  .status-container {
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+  }
+
+  .status {
+    font-size: 50px;
+    font-weight: 400;
+  }
+
+  .value {
+    font-size: 64px;
+    font-weight: 300;
+  }
+
+  .sub-value {
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+
+  .chart-container {
+    padding: 25px 20px 25px 20px;
+  }
+
+  .big-container-chart {
+    flex: 40%;
+  }
+
+  .face {
+    width: 75%;
+    align-self: center;
+    margin: 0 auto;
+  }
+
+  .value-bottom {
+    font-size: 88px;
+  }
+
+  .sub-value-bottom {
+    font-size: 48px;
+    font-weight: 400;
+  }
+
+  .label-text {
+    font-size: 30px;
+    font-weight: 400;
   }
 }
