@@ -118,13 +118,13 @@ const App = () => {
                         paddingBottom: 10,
                       }}
                     >
-                      <p className="content-power pad">WMP PV Capacity</p>
+                      <p className="content-power pad">PV Energy</p>
                       <div className="inner-content-power">
                         <div>
                           <p className="sub-content-power">140</p>
                         </div>
                         <div>
-                          <p className="sub-content-power-two">kWp</p>
+                          <p className="sub-content-power-two">W/m2</p>
                         </div>
                       </div>
                     </div>
@@ -183,11 +183,11 @@ const App = () => {
       <div className="bottom-content">
         <div className="card-bottom">
           <div className="big-container">
-            <p className="big-container-title">PV ENERGY (kW)</p>
+            <p className="big-container-title"> 121 kWp PV POWER</p>
             {isDesktop && (
               <SimpleGuageChart
                 id={"test-3"}
-                value={92.47}
+                value={121}
                 minAngle={-90}
                 maxAngle={90}
                 minValue={0}
@@ -221,10 +221,10 @@ const App = () => {
                 pointerColor="#192c92"
                 size={
                   window.innerWidth === 1920
-                    ? 600
+                    ? 450
                     : window.innerWidth === 2560
                     ? 850
-                    : 350
+                    : 300
                 }
               />
             )}
